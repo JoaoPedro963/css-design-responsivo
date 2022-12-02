@@ -1,0 +1,26 @@
+
+body{
+    background: wheat;
+    color: brown;
+    text-align: center;
+    font-family: Arial;
+    border: 5px solid ;
+    margin: 0px;
+}
+input{
+    background: burlywood;
+    border: 2px solid brown;
+    border-radius: 20px;
+    border-color: wheat;
+    color: brown;
+    cursor: pointer;
+    
+}
+.cadastro{
+    text-align: left;
+    font-size: larger;
+    padding: 10px;
+    display: block;
+}
+
+

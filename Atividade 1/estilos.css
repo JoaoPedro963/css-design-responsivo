@@ -7,20 +7,72 @@ body{
     border: 5px solid ;
     margin: 0px;
 }
-input{
+
+input::placeholder{
+    color: brown;
+    text-align: center;
+}
+.input1{
+    
     background: burlywood;
     border: 2px solid brown;
     border-radius: 20px;
-    border-color: wheat;
+    border-color: brown;
     color: brown;
     cursor: pointer;
-    
+    height: 26px;
+    width: 320px;
+
+}
+.input2{
+    background: burlywood;
+    border: 2px solid brown;
+    border-radius: 20px;
+    border-color: brown;
+    color: brown;
+    cursor: pointer;
+    height: 26px;
+    width: 120px;   
+}
+label::placeholder{
+    text-align: center;
+    color: brown;
+}
+marquee{
+border-bottom: 2px solid brown;
+color: brown;
+background: burlywood;
+text-shadow: 3px 5px 2px brown;
+color: wheat;
+background: burlywood;
+
 }
 .cadastro{
     text-align: left;
     font-size: larger;
     padding: 10px;
-    display: block;
+    display:flex;
+    border: 2px solid brown;
+    margin: 3px;
+    justify-content: space-between;
+
 }
-
-
+.data{
+    padding: 10px;
+    display: flex;
+    margin: 3px;
+    border: 2px solid brown;
+    justify-content:center;
+}
+.datanasc{
+    margin: 10px;
+    margin-left: 30px;
+}
+.camisa{
+    display:flex ;
+    text-align: left;
+    margin-left: 300px;
+}
+.calcado{
+    margin-left: 300px;
+}
